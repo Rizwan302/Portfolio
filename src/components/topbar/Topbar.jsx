@@ -8,7 +8,7 @@ export default function Topbar({name, open, close}) {
     <div className={"topbar " + (open && 'active')}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className='logo'>logo</a>
+          <a href="#intro" className='logo'>My Portfolio</a>
 
           <div className="itemContainer">
           <PersonIcon className='icon' />
